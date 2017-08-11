@@ -1,0 +1,104 @@
+{
+  "className": "com.iroshnk.jgivenselenium.WikipediaMainPageSearchTest",
+  "name": "Wikipedia Main Page Search",
+  "scenarios": [
+    {
+      "className": "com.iroshnk.jgivenselenium.WikipediaMainPageSearchTest",
+      "testMethodName": "aUserCanSuccessfullyLogin",
+      "description": "A user can successfully login",
+      "tagIds": [],
+      "explicitParameters": [
+        "searchText"
+      ],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "User Navigates To WikiPage",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "User Navigates To WikiPage"
+                },
+                {
+                  "value": "ChromeDriver: chrome on XP (03c2dde74af53ed6e4f58f2ca6a2096b)",
+                  "argumentInfo": {
+                    "argumentName": "webDriver",
+                    "formattedValue": "ChromeDriver: chrome on XP (03c2dde74af53ed6e4f58f2ca6a2096b)"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 6082455024
+            },
+            {
+              "name": "Enter Search Text",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "Enter Search Text"
+                },
+                {
+                  "value": "Software",
+                  "argumentInfo": {
+                    "argumentName": "searchText",
+                    "formattedValue": "Software"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 69473
+            },
+            {
+              "name": "Click Search Button",
+              "words": [
+                {
+                  "value": "and",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "Click Search Button"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2357218787
+            },
+            {
+              "name": "show",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "show"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 180578510
+            }
+          ],
+          "explicitArguments": [
+            "Software"
+          ],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 31247062311
+        }
+      ],
+      "durationInNanos": 31247062311,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}
